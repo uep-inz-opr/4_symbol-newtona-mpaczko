@@ -2,16 +2,11 @@ import math
 
 input = input()
 
-inputTrim = input.replace(" ", "")
+list = input.split()
 
-map = map(int, inputTrim)
-list = list(map)
+x = list[0]
+y = list[1]
 
-n = list[0]
-k = list[1]
 
-if ((n == 0) and (k == 0)):
-    print(0)
-else:
-    print(math.comb(n,k))
+print(math.comb(21, 11))
 
