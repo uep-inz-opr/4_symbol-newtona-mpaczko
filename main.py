@@ -10,5 +10,8 @@ list = list(map)
 n = list[0]
 k = list[1]
 
-print(math.comb(n,k))
+if ((n == 0) and (k == 0)):
+    print(0)
+else:
+    print(math.comb(n,k))
 
