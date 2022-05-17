@@ -2,7 +2,11 @@ import math
 
 input = input()
 
-list = input.split()
+inputTrim = input.split()
+
+map = map(int, inputTrim)
+list = list(map)
+
 
 x = list[0]
 y = list[1]
