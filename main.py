@@ -8,5 +8,5 @@ x = list[0]
 y = list[1]
 
 
-print(math.comb(21, 11))
+print(math.comb(x, y))
 
